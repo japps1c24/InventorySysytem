@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/ic_systemunit"
+        android:id="@+id/btn_sysunit" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="System Unit"
+        android:textColor="#414143"/>
+
+    <Button
+        android:id="@+id/btn_monitor"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/ic_desktop" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textColor="#414143"
+        android:text="Monitor" />
+
+    <Button
+        android:id="@+id/btn_headset"
+        android:layout_marginBottom="10dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:background="@drawable/ic_headset_mic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textColor="#414143"
+        android:text="Headset" />
+
+</LinearLayout>
